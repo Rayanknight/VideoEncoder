@@ -11,6 +11,6 @@ async def starter(event):
     if not await check_user(event.sender_id):
         await add_user(event.sender_id)
     await event.reply(
-        f"......Hi \n wtf dude (ツ) \n you know i can encode Telegram files in x265 right \n then what are you even looking!? gosh😹.",
+        f"Welcome Boss! I hope you are going to have a great time with us. /n So happy to have you among us",
         
     )
